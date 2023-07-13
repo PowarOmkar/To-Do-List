@@ -13,6 +13,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class Task {
 	public static void main(String[] args) {
 		SpringApplication.run(Task.class, args);
+		System.out.println("This is Spring Boot Application");
 	}
 
 
